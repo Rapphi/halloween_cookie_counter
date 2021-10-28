@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Un super cookie-clicker pour la fête d'Halloween. Augmentez vos gains grâce aux boosters !">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>The Halloween Cookie Counter.</title>
+</head>
+
+<body>
+    
+  <header><h1>The Halloween Cookie Counter 2.0.21</h1></header>
+  
+  <div class="container">
+    <div class="row">
+      <div id="colonneGauche" class="col">
+        <!-- affichage total de cookie -->
+        <h2 id="counter"> Cookies : 0 </h2>
+
+        <!-- bouton cookie -->
+        <input type="image" src="img/cookie.png" alt="bouton du cookie clicker" id="clicker">
+
+        <!-- multiplicateur que le joueur a -->
+        <div id="display">
+          <div id="multiplicateur"> Boost : 1 </div>
+        </div>
+      </div>
+        
+      <!-- à droite, liste de tous les bonus que peut acheter le joueur -->
+      <div id="colonneDroite" class="col">
+        <div id="boost">
+          <div class="cadre1">
+            <h2>Booster +1</h2>
+            <p id="prix-1">Prix : 10</p>
+            <input type="button" id="boost-1" value="Boost +1">
+          </div>
+
+          <br>
+
+            <div class="cadre2">
+            <h2>Auto-click</h2>
+            <p id="prix_auto_click">Prix : 50</p>
+            <input type="button" id="auto-click" value="Auto click">
+            </div>
+
+            <br>
+
+            
+          <div class="cadre3">
+            <h2>CLICK BOOST</h2>
+            <p>Prix : 200</p>
+            <input type="button" id="click-boost" value="Click-boost">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>-->
+  <script src="js/cookie.js"></script>
+</body>
+
+</html>

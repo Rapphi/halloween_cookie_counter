@@ -1,0 +1,116 @@
+body {
+  background-image: linear-gradient(to bottom, black, yellow,orange);
+}
+
+#colonneGauche {
+    background-image: url(/img/skeleton.gif);
+    width: auto;
+    max-width: 500px;
+    height: 500px;     
+}
+#colonneDroite {
+    width: auto;
+    height: 500px;   
+}
+
+/* affichage du score total */
+#counter{
+    color: rgb(241, 114, 10);
+    display: flex;
+    justify-content: center;
+    border: 1px gold dashed;
+}
+
+/* bouton avec le cookie */
+#clicker {
+    width: 20%;
+    height: auto;
+    /* oligatoire pour que le bouton se met au centre avec justify content */
+    margin: 0 auto;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clicker:hover{
+    transform: scale(1.25);
+}
+
+/* affichage du multiplicateur */
+#multiplicateur{
+    font-size: x-large;
+    color: rgb(137, 34, 137);
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-left: 250px;
+}
+
+/* tous les boost que le joueur peut avoir */
+/*#boost {
+    grid-area: bonus;
+}*/
+
+/*sofian*/
+h1{
+  color: orange;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+
+
+.cadre1{
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-image: url(/img/fusee.png);
+  background-color: rgb(7, 90, 7);
+  color: orange;
+  margin-top: 26px;
+}
+
+.cadre2{
+  text-align: center;
+  background-image: url(/img/robot.png);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-color: rgb(7, 90, 7);
+  color: orange;
+  margin-top: 26px;
+}
+
+.cadre3{
+  text-align: center;
+  background-image: url(/img/batterie.png);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-color: rgb(7, 90, 7);
+  color: orange;
+  margin-top: 26px;
+}
+
+#boost-1{
+  background-color: red;
+  border: black;
+  font-size: larger;
+  color: white;
+}
+
+#auto-click{
+  background-color: red;
+  border: black;
+  font-size: larger;
+  color: white;
+  
+}
+
+#click-boost{
+  background-color: red;
+  border: black;
+  font-size: larger;
+  color: white; 
+}
