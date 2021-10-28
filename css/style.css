@@ -3,7 +3,7 @@ body {
 }
 
 #colonneGauche {
-    background-image: url(/img/skeleton.gif);
+    background-image: url(../img/skeleton.gif);
     width: auto;
     max-width: 500px;
     height: 500px;     
@@ -67,7 +67,7 @@ h1{
   text-align: center;
   background-repeat: no-repeat;
   background-position-y: bottom;
-  background-image: url(/img/fusee.png);
+  background-image: url(../img/fusee.png);
   background-color: rgb(7, 90, 7);
   color: orange;
   margin-top: 26px;
@@ -75,7 +75,7 @@ h1{
 
 .cadre2{
   text-align: center;
-  background-image: url(/img/robot.png);
+  background-image: url(../img/robot.png);
   background-repeat: no-repeat;
   background-position-y: bottom;
   background-color: rgb(7, 90, 7);
@@ -85,7 +85,7 @@ h1{
 
 .cadre3{
   text-align: center;
-  background-image: url(/img/batterie.png);
+  background-image: url(../img/batterie.png);
   background-repeat: no-repeat;
   background-position-y: bottom;
   background-color: rgb(7, 90, 7);
