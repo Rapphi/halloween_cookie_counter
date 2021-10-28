@@ -13,9 +13,13 @@
 * Github and Gitbash knowledge must be strengthened and applied in real-world assignments
 * argument between team members due to a misunderstanding; settled by discussion
 * Back-end developer was on sick leave on Day 3 and Day 4. He had already done most of the features but we couldn't fine tune like we wanted to.
+## Pending : 
+* responsive feature yet to be done
 ## Photographic Credits :
 * gif "Happy Halloween"  : https://tenor.com/view/happy-halloween-halloween-funny-skeleton-pumpkin-spooky-gif-18996502
 * image de fusée : https://icon-icons.com/fr/icone/fusee/54375 
 * image du robot : https://icon-icons.com/fr/icone/robots-bender-futurama/98547 
 * image de la batterie : https://icon-icons.com/fr/icone/charger-batterie-batterie/4259 
+## Link to the live version : https://rapphi.github.io/halloween_cookie_counter/
 ## Conclusion :
+* This was a demanding project but also a fascinating one ! Working together as a team is an art which has to be practiced to be perfect. 
